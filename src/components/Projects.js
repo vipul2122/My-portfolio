@@ -24,7 +24,7 @@ export const Projects = () => {
     },
     {
       title: "Tic-Tac-Toe Game",
-      description: <a href=""><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p></a>,
+      description: <a href="https://github.com/vipul2122/Tic-Tac-Toe"><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p></a>,
       imgUrl: projImg3,
     },
     
@@ -32,14 +32,14 @@ export const Projects = () => {
   const projects2 = [
     {
       title: "E-commerce",
-      description: <a href="https://github.com/vipul2122/Facebookclone"><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p> </a>,
+      description: <a href="https://github.com/vipul2122/Mern-Ecommerce"><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p> </a>,
       imgUrl: projImg4,
     } 
   ]
   const projects3= [
     {
       title: "D3.js Project",
-      description: <a href="https://github.com/vipul2122/Facebookclone"><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p> </a>,
+      description: <a href="https://github.com/vipul2122/D3.Js-india-mind-map"><p style={{backgroundColor:"gray",borderRadius:"5px"}}>Go to GITHUB</p> </a>,
       imgUrl: projImg5,
     } 
   ]
