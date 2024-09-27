@@ -46,10 +46,7 @@ export const Projects = () => {
 
 
   return (
-    <section className="project" id="project">
-      <Container>
-        <Row>
-          <Col size={12}>
+    <section className="project" id="projects">
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
@@ -114,9 +111,7 @@ export const Projects = () => {
                 </Tab.Container>
               </div>}
             </TrackVisibility>
-          </Col>
-        </Row>
-      </Container>
+          
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )

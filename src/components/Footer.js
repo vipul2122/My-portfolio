@@ -15,9 +15,9 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailchimpForm />
+        
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            <h2>Contact us on...</h2>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div style={{display:"flex",gap:"2px", alignItems:"center",justifyContent:"flex-end"}}>

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/pngtree-website-technology-line-dark-background-image_2344719.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,7 +11,7 @@ export const Banner = ({ name = "Vipul Kumar", tagline = "Welcome to my Portfoli
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Frontend Developer", "Mern fullstack Developer"];
   const period = 2000;
 
   const tick = useCallback(() => {
@@ -47,27 +47,19 @@ export const Banner = ({ name = "Vipul Kumar", tagline = "Welcome to my Portfoli
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} xl={12}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">{tagline}</span>
-                  <h1>{`Hi! I'm ${name}`} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Full-stack Developer"]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm ${name}`} <br></br><span className="txt-rotate" dataPeriod="100" data-rotate='["Web Developer", "Full-stack Developer"]'><span className="wrap">{text}</span></span></h1>
                   <p>{description}</p>
                  
                 </div>
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img" />
-                </div>
-              )}
-            </TrackVisibility>
-          </Col>
+          
         </Row>
       </Container>
     </section>
