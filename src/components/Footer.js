@@ -13,21 +13,21 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 export const Footer = () => {
   return (
     <footer className="footer">
-      <Container>
+      <Container >
         <Row className="align-items-center">
         
-          <Col size={12} sm={6}>
+          <Col size={12} xs={6} sm={6}>
             <h2>Contact us on...</h2>
           </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
+          <Col size={12} xs={6} sm={6} className="text-center text-sm-end">
             <div style={{display:"flex",gap:"2px", alignItems:"center",justifyContent:"flex-end"}}>
            
-            <a href="https://www.linkedin.com/in/vipul-kumar-b0b695212"><FontAwesomeIcon style={{height:"40px",width:"48px"}} icon={faLinkedin} /></a>
+            <a href="https://www.linkedin.com/in/vipul-kumar-b0b695212"><FontAwesomeIcon style={{height:"30px",width:"48px"}} icon={faLinkedin} /></a>
               <a href="https://github.com/vipul2122">
-                <FontAwesomeIcon style={{height:"40px",width:"48px"}} icon={faGithub} />
+                <FontAwesomeIcon style={{height:"30px",width:"48px"}} icon={faGithub} />
               </a>
               <a href="mailto:iamvip2122@gmail.com">
-                <FontAwesomeIcon style={{height:"48px",width:"48px"}} icon={faEnvelope} />
+                <FontAwesomeIcon style={{height:"33px",width:"40px" }} icon={faEnvelope} />
               </a>
              
             </div>
