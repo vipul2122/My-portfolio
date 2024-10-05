@@ -6,12 +6,12 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Banner = ({ name = "Vipul Kumar", tagline = "Welcome to my Portfolio", description = "As a skilled front-end developer specializing in React, I also bring valuable knowledge of Node.js to my projects. Currently, I am contributing to the development of a significant cultural portal for the Indian government, showcasing my ability to handle complex and impactful projects." }) => {
+export const Banner = ({ name = "Vipul,", tagline = "Welcome to my Portfolio", description = "As a skilled front-end developer specializing in React, I also bring valuable knowledge of Node.js to my projects. Currently, I am contributing to the development of a significant cultural portal for the Indian government, showcasing my ability to handle complex and impactful projects." }) => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Frontend Developer", "Mern fullstack Developer"];
+  const toRotate = ["Frontend Developer", "MERN fullstack Developer"];
   const period = 2000;
 
   const tick = useCallback(() => {

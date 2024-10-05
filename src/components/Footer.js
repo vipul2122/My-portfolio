@@ -17,7 +17,7 @@ export const Footer = () => {
         <Row className="align-items-center">
         
           <Col size={12} xs={6} sm={6}>
-            <h2>Contact us on...</h2>
+            <h2>Contact us </h2>
           </Col>
           <Col size={12} xs={6} sm={6} className="text-center text-sm-end">
             <div style={{display:"flex",gap:"2px", alignItems:"center",justifyContent:"flex-end"}}>
